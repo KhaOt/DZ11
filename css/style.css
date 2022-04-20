@@ -13,6 +13,7 @@ html {
 main {
     width: 300px;
     margin: 0px auto;
+    font-family: Arial;
 }
 
 p {
@@ -26,10 +27,12 @@ a {
 /* Колонки */
 
 .row {
-
+    display: flex;
+    text-align: center:
 }
 .col {
-
+    flex: auto;
+    text-align: center:
 }
 
 
@@ -60,15 +63,27 @@ a {
 }
 
 .genre-second {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 80%;
 }
 
 .genre-third {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: papayawhip;
+    border-radius: 5px;
+    width: 60%;
 }
 
 .genre-fourth {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: thistle;
+    border-radius: 5px;
+    width: 40%;
 }
 
 .tag {
