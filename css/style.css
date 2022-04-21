@@ -13,33 +13,46 @@ html {
 main {
     width: 300px;
     margin: 0px auto;
+    font-family: Verdana;
 }
 
 p {
-
+    font-family: Arial
 }
 
 a {
-
+    color: dodgerblue
+    text-decoration: none;
 }
 
 /* Колонки */
 
 .row {
-
+    display: flex;
+    margin: 5px;
 }
 .col {
-
+    flex: auto;
+    margin: 5px;
 }
 
 
 /* Потом селекторы по классам */
 
 .text-input {
-
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .button {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: white;
 
 }
 
@@ -48,7 +61,10 @@ a {
 /* Login*/
 
 .input-login {
-
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
 
 }
 
@@ -56,29 +72,46 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .genre-second {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 80%;
 }
 
 .genre-third {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: papayawhip;
+    border-radius: 5px;
+    width: 60%;
 }
 
 .genre-fourth {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: thistle;
+    border-radius: 5px;
+    width: 40%;
 }
 
 .tag {
-
+    text-decoration: none
 }
 
 /* Страничка популярного */
 
 .cover {
-
+    margin: 10px 10px;
+    padding: 10px 10px;
 }
 
 /* Страничка подписки  */
@@ -92,9 +125,17 @@ a {
 }
 
 .text-large {
-
+    color: black;
+    font-size: 20px;
+    font-weight: bold
 }
 
 .button-link {
-
+    margin: 10px 0px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: white;
+    text-decoration: none;
 }
