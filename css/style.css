@@ -43,6 +43,12 @@ a {
 }
 
 .button {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: dodgerblue;
+    color: white;
 
 }
 
@@ -59,7 +65,11 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    margin: 10px 0px;
+    padding: 5px 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .genre-second {
