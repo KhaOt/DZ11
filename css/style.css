@@ -117,11 +117,17 @@ a {
 /* Страничка подписки  */
 
 .box-green {
-
+    margin: 50px 0px 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: honeydew;
 }
 
 .box-purple {
-
+    margin: 50px 0px 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: mistyrose;
 }
 
 .text-large {
